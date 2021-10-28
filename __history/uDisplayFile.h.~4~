@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#ifndef uDisplayFileH
+#define uDisplayFileH
+#include <vector>
+#include <Vcl.StdCtrls.hpp>
+#include "uPoligono.h"
+//---------------------------------------------------------------------------
+class DisplayFile {
+	public:
+		std::vector<Poligono> poligonos;
+
+        void toString(TListBox *listBox);
+};
+
+#endif

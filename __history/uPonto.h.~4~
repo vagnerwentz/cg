@@ -1,0 +1,20 @@
+//---------------------------------------------------------------------------
+
+#ifndef uPontoH
+#define uPontoH
+#include <Vcl.StdCtrls.hpp>
+#include "uJanela.h"
+//---------------------------------------------------------------------------
+class Ponto {
+	public:
+		double x;
+		double y;
+
+		Ponto();
+		Ponto(double, double);
+
+		UnicodeString toString();
+
+		int xMundoToViewPort(Janela mundo, Janela viewPort);
+};
+#endif

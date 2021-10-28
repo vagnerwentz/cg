@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "uDisplayFile.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+void DisplayFile::toString(TListBox *listBox) {
+    listBox->Items->Clear();
+
+	for (int index = 0; index < poligonos.size(); index++) {
+		// listBox->Items->Add(poligonos[index].toStringListBox());
+		listBox->Items->Add(IntToStr(poligonos[index].id) + " - " + poligonos[index].tipo);
+	}
+}

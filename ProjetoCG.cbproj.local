@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/09 13:43:27.000.491,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/09 13:43:27.000.419,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/10/09 13:44:20.000.992,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\User\Documents\Embarcadero\Studio\Projects\uFormPrincipal.cpp</Transaction>
+    <Transaction>2021/10/09 13:44:20.000.992,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\User\Documents\Embarcadero\Studio\Projects\uFormPrincipal.dfm</Transaction>
+    <Transaction>2021/10/09 13:44:20.000.992,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\User\Documents\Embarcadero\Studio\Projects\uFormPrincipal.h</Transaction>
+    <Transaction>2021/10/09 13:44:43.000.899,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\User\Documents\Embarcadero\Studio\Projects\ProjetoCGv2.h</Transaction>
+    <Transaction>2021/10/09 13:47:11.000.825,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/09 13:47:56.000.029,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\User\Documents\Embarcadero\Studio\Projects\uPonto.cpp</Transaction>
+    <Transaction>2021/10/09 13:47:56.000.029,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\User\Documents\Embarcadero\Studio\Projects\uPonto.h</Transaction>
+    <Transaction>2021/10/09 13:49:04.000.152,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/09 13:49:08.000.668,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\User\Documents\Embarcadero\Studio\Projects\uJanela.cpp</Transaction>
+    <Transaction>2021/10/09 13:49:08.000.668,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\User\Documents\Embarcadero\Studio\Projects\uJanela.h</Transaction>
+    <Transaction>2021/10/09 13:52:49.000.824,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\User\Documents\Embarcadero\Studio\Projects\ProjetoCG.cbproj</Transaction>
+    <Transaction>2021/10/09 14:38:39.000.810,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/09 14:38:54.000.732,C:\Users\User\Documents\Embarcadero\Studio\Projects\uPoligono.cpp=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/09 14:38:54.000.732,C:\Users\User\Documents\Embarcadero\Studio\Projects\uPoligono.h=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2021/10/10 13:29:34.000.667,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/10 13:29:40.000.401,C:\Users\User\Documents\Embarcadero\Studio\Projects\uDisplayFile.cpp=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/10 13:29:40.000.401,C:\Users\User\Documents\Embarcadero\Studio\Projects\uDisplayFile.h=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,89 @@
+//---------------------------------------------------------------------------
+
+#ifndef uFormPrincipalH
+#define uFormPrincipalH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *Panel1;
+	TImage *Image1;
+	TLabel *labelViewPort;
+	TLabel *labelMundo;
+	TButton *buttonTesteClick;
+	TListBox *listBoxPontos;
+	TLabel *Label1;
+	TLabel *Label2;
+	TListBox *listBoxPoligonos;
+	TEdit *editXMundoMinimo;
+	TEdit *editYMundoMinimo;
+	TEdit *editXMundoMaximo;
+	TEdit *editYMundoMaximo;
+	TLabel *Label3;
+	TLabel *Label4;
+	TLabel *Label5;
+	TLabel *Label6;
+	TButton *buttonAtualizaMundo;
+	TButton *buttonCima;
+	TButton *buttonEmbaixo;
+	TButton *buttonEsquerda;
+	TButton *buttonDireita;
+	TButton *buttonZoomIn;
+	TButton *buttonZoomOut;
+	TRadioGroup *radioGroupTipoDeReta;
+	TButton *buttonCircunferencia;
+	TButton *buttonTransladar;
+	TEdit *editXTransladar;
+	TEdit *editYTransladar;
+	TEdit *editXEscalonar;
+	TEdit *editYEscalonar;
+	TButton *buttonEscalonar;
+	TEdit *editAnguloRotacionar;
+	TButton *buttonRotacionar;
+	TLabel *Label7;
+	TButton *buttonReflexaoX;
+	TButton *buttonReflexaoY;
+	TLabel *Label8;
+	TEdit *editRotacaoHomogenea;
+	TButton *buttonRotacaoHomogenea;
+	TButton *buttonClipping;
+	void __fastcall Image1MouseMove(TObject *Sender, TShiftState Shift, int X, int Y);
+	void __fastcall Image1MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+          int X, int Y);
+	void __fastcall buttonTesteClickClick(TObject *Sender);
+	void __fastcall listBoxPontosMouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+		  int X, int Y);
+	void __fastcall listBoxPoligonosMouseDown(TObject *Sender, TMouseButton Button,
+          TShiftState Shift, int X, int Y);
+	void __fastcall buttonAtualizaMundoClick(TObject *Sender);
+	void __fastcall buttonCimaClick(TObject *Sender);
+	void __fastcall buttonZoomInClick(TObject *Sender);
+	void __fastcall buttonZoomOutClick(TObject *Sender);
+	void __fastcall buttonEmbaixoClick(TObject *Sender);
+	void __fastcall buttonDireitaClick(TObject *Sender);
+	void __fastcall buttonEsquerdaClick(TObject *Sender);
+	void __fastcall radioGroupTipoDeRetaClick(TObject *Sender);
+	void __fastcall buttonCircunferenciaClick(TObject *Sender);
+	void __fastcall buttonTransladarClick(TObject *Sender);
+	void __fastcall buttonEscalonarClick(TObject *Sender);
+	void __fastcall buttonRotacionarClick(TObject *Sender);
+	void __fastcall buttonReflexaoXClick(TObject *Sender);
+	void __fastcall buttonReflexaoYClick(TObject *Sender);
+	void __fastcall buttonRotacaoHomogeneaClick(TObject *Sender);
+
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+    void AtualizaMundo();
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
+
